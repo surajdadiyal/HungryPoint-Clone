@@ -24,7 +24,7 @@ function RefundPolicy() {
                                     className='w-full space-y-5'
                                 >
                                     <h2
-                                        data-aos="fade-right"
+                                        data-aos="fade-up"
                                         data-aos-duration="700"
                                         className='text-xl font-medium uppercase'
                                     >

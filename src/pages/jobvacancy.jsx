@@ -14,14 +14,14 @@ function JobVacancy() {
                 <div className='w-4/5 flex flex-col items-center justify-center py-5 container mx-auto'>
                     <div className='w-full flex flex-col items-start justify-center space-y-5'>
                         <h2
-                            data-aos="fade-left"
+                            data-aos="fade-up"
                             data-aos-duration="700"
                             className='text-5xl font-semibold'
                         >
                             Job Vacancy at Hungry Point: Join Our Flavorful Journey
                         </h2>
                         <p
-                            data-aos="fade-right"
+                            data-aos="fade-up"
                             data-aos-duration="700"
                             data-aos-delay="300"
                             className='text-base font-medium'>Current Job Openings</p>
@@ -34,14 +34,14 @@ function JobVacancy() {
                                     <div key={index}>
                                         <li className='space-y-3'>
                                             <h2
-                                                data-aos="fade-left"
+                                                data-aos="fade-up"
                                                 data-aos-duration="700"
                                                 className='text-xl font-semibold'>
                                                 {elem.id}.{" "}{elem.heading}
                                             </h2>
                                             {" "}
                                             <p
-                                                data-aos="fade-right"
+                                                data-aos="fade-up"
                                                 data-aos-duration="700"
                                                 data-aos-delay="300"
                                                 className='text-base font-normal'
@@ -72,14 +72,14 @@ function JobVacancy() {
                         <div className='w-full flex flex-col items-center justify-start'>
                             <div className='flex flex-col items-start justify-center'>
                                 <h2
-                                    data-aos="fade-left"
+                                    data-aos="fade-up"
                                     data-aos-duration="700"
                                     className='text-3xl font-semibold pb-1'
                                 >
                                     How to Apply
                                 </h2>
                                 <p
-                                    data-aos="fade-right"
+                                    data-aos="fade-up"
                                     data-aos-duration="700"
                                     data-aos-delay="300"
                                     className='text-base font-normal'

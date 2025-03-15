@@ -83,7 +83,7 @@ function Home() {
                     <div className='w-full flex items-center justify-center'>
                         <div
                             className='w-full flex items-center justify-center bg-[url("https://hungrypoint.in/img/bc.webp")] bg-cover rounded-md mx-auto'
-                            data-aos="fade-right"
+                            data-aos="fade-up"
                             data-aos-duration="700"
                         >
                             <div className='w-full flex flex-col md:flex-row space-x-5 px-5 py-8'>
@@ -116,7 +116,7 @@ function Home() {
                     <div className='w-full flex items-center justify-center'>
                         <div
                             className='w-full flex items-center justify-center bg-[url("https://hungrypoint.in/img/bc.webp")] bg-cover rounded-md mx-auto'
-                            data-aos="fade-left"
+                            data-aos="fade-up"
                             data-aos-duration="700"
                         >
                             <div className='w-full flex flex-col md:flex-row space-x-5 px-5 py-8'>
@@ -173,7 +173,7 @@ function Home() {
 
                     <div className='w-full grid xl:grid-cols-2 py-10'>
                         <div
-                            data-aos="fade-right"
+                            data-aos="fade-up"
                             data-aos-duration="700"
                             className='w-full flex relative items-center justify-center'
                         >
@@ -210,21 +210,21 @@ function Home() {
                             <div className='w-full flex items-center justify-center'>
                                 <div className='w-full flex flex-col space-y-5'>
                                     <p
-                                        data-aos="fade-left"
+                                        data-aos="fade-up"
                                         data-aos-duration="700"
                                         className='text-base font-medium'
                                     >
                                         Welcome to Hungry Point, where our passion for delectable food and exceptional service has been the driving force behind our journey from humble beginnings to becoming a renowned food outlet brand across India. Our story began in June 2016 when two ambitious souls, Mr. Harpreet Singh and Mr. Hanish Vij, joined forces to create something extraordinary in the heart of Hoshiarpur.
                                     </p>
                                     <p
-                                        data-aos="fade-left"
+                                        data-aos="fade-up"
                                         data-aos-duration="700"
                                         className='text-base font-medium'
                                     >
                                         With over six years of collective experience in the multinational food industry, Mr. Harpreet Singh and Mr. Hanish Vij envisioned a place where food would not just satiate hunger but would also ignite a symphony of flavors in every bite. They dreamt of creating a culinary haven where people could indulge in scrumptious meals prepared with love, care, and the finest ingredients.
                                     </p>
                                     <p
-                                        data-aos="fade-left"
+                                        data-aos="fade-up"
                                         data-aos-duration="700"
                                         className='text-base font-medium'
                                     >
@@ -259,7 +259,7 @@ function Home() {
                             className='object-cover w-16 xl:w-20 absolute top-0 left-0 mushroom'
                             loading='lazy'
                         />
-                        <div className='w-fullflex items-center justify-center'>
+                        <div className='w-full flex items-center justify-center'>
                             <h2
                                 data-aos="fade-up"
                                 data-aos-duration="700"

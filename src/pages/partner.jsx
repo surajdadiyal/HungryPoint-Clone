@@ -12,14 +12,14 @@ function PartnerWithUs() {
                 <div className='w-4/5 flex flex-col items-center justify-center py-14 relative mx-auto container'>
                     <div className='w-full flex flex-col items-start justify-center space-y-5 pb-5'>
                         <h2
-                            data-aos="fade-left"
+                            data-aos="fade-up"
                             data-aos-duration="700"
                             className='text-5xl font-semibold'
                         >
                             Partner With Us : Join the Hungry Point Family
                         </h2>
                         <p
-                            data-aos="fade-right"
+                            data-aos="fade-up"
                             data-aos-duration="700"
                             data-aos-delay="200"
                             className='text-base font-medium'
@@ -38,14 +38,14 @@ function PartnerWithUs() {
                                     >
                                         <h2
                                             className='text-xl font-semibold'
-                                            data-aos="fade-left"
+                                            data-aos="fade-up"
                                             data-aos-duration="700"
                                         >
                                             {id}.{" "}{heading}
                                         </h2>
                                         {" "}
                                         <p
-                                            data-aos="fade-right"
+                                            data-aos="fade-up"
                                             data-aos-duration="700"
                                             data-aos-delay="200"
                                             className='text-base font-normal pb-3'

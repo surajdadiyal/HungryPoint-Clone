@@ -32,7 +32,7 @@ function Navbar() {
   };
 
   return (
-    <header className='w-full flex items-center justify-center py-4 sticky top-0 z-10 bg-[url("https://hungrypoint.in/img/bc.webp")]'>
+    <header className='w-full flex items-center justify-center py-4 sticky top-0 z-10 bg-[url("https://hungrypoint.in/img/bc.webp")] max-w-full'>
       <div className='w-4/5 grid grid-cols-3 container mx-auto'>
         {/* Logo */}
         <Link to={'/'} className='w-40 flex items-center justify-start col-span-2 xl:col-span-1'>
@@ -45,7 +45,7 @@ function Navbar() {
         </Link>
 
         {/* Desktop Navbar */}
-        <div className='hidden xl:flex xl:items-center xl:justify-center col-span-2'>
+        <div className='w-full hidden xl:flex xl:items-center xl:justify-center col-span-2'>
           <nav className='w-full flex items-center justify-center'>
             <ul className='w-full flex gap-2 items-center justify-evenly'>
               {navbar.map((elem, index) => (

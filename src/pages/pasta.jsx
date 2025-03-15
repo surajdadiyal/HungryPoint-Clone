@@ -49,7 +49,7 @@ function Pasta() {
                                 return category && (
                                     <li key={index} className='space-y-5'>
                                         <h2
-                                            data-aos="fade-right"
+                                            data-aos="fade-up"
                                             data-aos-duration="700"
                                             className='text-3xl'
                                         >
