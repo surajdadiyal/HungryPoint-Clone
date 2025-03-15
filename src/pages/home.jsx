@@ -87,7 +87,7 @@ function Home() {
                             data-aos-duration="700"
                         >
                             <div className='w-full flex flex-col md:flex-row space-x-5 px-5 py-8'>
-                                <div className='md:w-1/2'>
+                                <div className='w-full md:w-1/2'>
                                     <LazyLoadImage
                                         src='https://hungrypoint.in/img/HPLOGO.png'
                                         alt='https://hungrypoint.in/img/HPLOGO.png'
@@ -99,7 +99,7 @@ function Home() {
                                         }}
                                     />
                                 </div>
-                                <div className='md:w-1/2 flex flex-col items-center justify-center bg-[url("https://hungrypoint.in/img/Confetti.webp")] bg-cover space-y-3'>
+                                <div className='w-full md:w-1/2 flex flex-col items-center justify-center bg-[url("https://hungrypoint.in/img/Confetti.webp")] bg-cover space-y-3'>
                                     <span className='text-5xl font-bold text-yellow-400'>200+</span>
                                     <span className='text-5xl font-bold text-yellow-400'>Outlets</span>
                                     <Button
@@ -120,7 +120,7 @@ function Home() {
                             data-aos-duration="700"
                         >
                             <div className='w-full flex flex-col md:flex-row space-x-5 px-5 py-8'>
-                                <div className='md:w-1/2'>
+                                <div className='w-full md:w-1/2'>
                                     <LazyLoadImage
                                         src='https://hungrypoint.in/img/HPLOGO.png'
                                         alt='https://hungrypoint.in/img/HPLOGO.png'
@@ -132,7 +132,7 @@ function Home() {
                                         }}
                                     />
                                 </div>
-                                <div className='md:w-1/2 flex flex-col items-center justify-center bg-[url("https://hungrypoint.in/img/Confetti.webp")] bg-cover space-y-3'>
+                                <div className='w-full md:w-1/2 flex flex-col items-center justify-center bg-[url("https://hungrypoint.in/img/Confetti.webp")] bg-cover space-y-3'>
                                     <span className='text-5xl font-bold text-yellow-400'>200+</span>
                                     <span className='text-5xl font-bold text-yellow-400'>Outlets</span>
                                     <Button
@@ -163,7 +163,7 @@ function Home() {
                             className='object-cover w-16 xl:w-20 absolute overflow-hidden top-0 right-0 mushroom'
                             loading='lazy'
                         />
-                        <div className='flex items-center justify-center'>
+                        <div className='w-full flex items-center justify-center'>
                             <h2
                                 data-aos="fade-up"
                                 data-aos-duration="700"
@@ -171,11 +171,12 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className='grid xl:grid-cols-2 py-10'>
+                    <div className='w-full grid xl:grid-cols-2 py-10'>
                         <div
                             data-aos="fade-right"
                             data-aos-duration="700"
-                            className='flex relative items-center justify-center'>
+                            className='w-full flex relative items-center justify-center'
+                        >
                             <LazyLoadImage
                                 src='https://hungrypoint.in/img/Our_Story-Icons.webp'
                                 alt='https://hungrypoint.in/img/Our_Story-Icons.webp'
@@ -186,7 +187,7 @@ function Home() {
                                     style: { transitionDelay: "1s" }
                                 }}
                             />
-                            <div className='max-w-[400px] absolute w-[70%] aspect-square top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                            <div className='max-w-[400px] absolute w-[70%] aspect-square top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden'>
                                 <img
                                     src='https://hungrypoint.in/img/Circular_Border.webp'
                                     alt='https://hungrypoint.in/img/Circular_Border.webp'
@@ -196,7 +197,7 @@ function Home() {
                                 <LazyLoadImage
                                     src='https://hungrypoint.in/img/Our_Story_Dummy.webp'
                                     alt='https://hungrypoint.in/img/Our_Story_Dummy.webp'
-                                    className='object-cover relative w-[350px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                                    className='object-cover relative w-[300px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
                                     loading='lazy'
                                     effect='blur'
                                     wrapperProps={{
@@ -205,9 +206,9 @@ function Home() {
                                 />
                             </div>
                         </div>
-                        <div className='relative flex items-center justify-center'>
-                            <div className='flex items-center justify-center'>
-                                <div className='flex flex-col space-y-5'>
+                        <div className='w-full relative flex items-center justify-center'>
+                            <div className='w-full flex items-center justify-center'>
+                                <div className='w-full flex flex-col space-y-5'>
                                     <p
                                         data-aos="fade-left"
                                         data-aos-duration="700"
@@ -258,7 +259,7 @@ function Home() {
                             className='object-cover w-16 xl:w-20 absolute top-0 left-0 mushroom'
                             loading='lazy'
                         />
-                        <div className='flex items-center justify-center'>
+                        <div className='w-fullflex items-center justify-center'>
                             <h2
                                 data-aos="fade-up"
                                 data-aos-duration="700"
@@ -269,7 +270,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-16'>
+                    <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-16'>
                         {loading ? (
                             Array.from({ length: homedata.length }).map((_, index) => (
                                 <div
@@ -301,7 +302,7 @@ function Home() {
                                     >
                                         <div className='w-full flex items-center justify-center gap-5'>
                                             <div className='w-1/4 flex flex-col items-center justify-center'>
-                                                <div className='rounded-full border border-red-400 p-2'>
+                                                <div className='w-full rounded-full border border-red-400 p-2'>
                                                     <LazyLoadImage
                                                         src={image}
                                                         alt={image}
@@ -316,7 +317,7 @@ function Home() {
                                                 <span className='text-xl font-semibold mt-5'>{price}</span>
                                             </div>
                                             <div className='w-3/5 flex flex-col items-center justify-center'>
-                                                <div className='flex flex-col items-start justify-center space-y-2.5'>
+                                                <div className='w-full flex flex-col items-start justify-center space-y-2.5'>
                                                     <h2 className='text-xl font-semibold'>{name}</h2>
                                                     <p className='text-xs'>{description}</p>
                                                 </div>
@@ -345,7 +346,7 @@ function Home() {
                             className='object-cover w-16 xl:w-20 absolute top-0 left-0 mushroom'
                             loading='lazy'
                         />
-                        <div className='flex items-center justify-center'>
+                        <div className='w-full flex items-center justify-center'>
                             <h2
                                 data-aos="fade-up"
                                 data-aos-duration="700"
@@ -356,8 +357,8 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className='grid grid-cols-1 lg:grid-cols-2 w-full gap-5 py-16'>
-                        <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-3'>
+                    <div className='w-full grid grid-cols-1 lg:grid-cols-2 gap-5 py-16'>
+                        <div className='w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-3'>
                             <div
                                 data-aos="zoom-in"
                                 data-aos-duration="700"
@@ -373,7 +374,7 @@ function Home() {
                             <div
                                 data-aos="zoom-in"
                                 data-aos-duration="700"
-                                className='flex items-center justify-center'
+                                className='w-full flex items-center justify-center'
                             >
                                 <img
                                     src='https://hungrypoint.in/img/2.webp'
@@ -385,7 +386,7 @@ function Home() {
                             <div
                                 data-aos="zoom-in"
                                 data-aos-duration="700"
-                                className='flex items-center justify-center'
+                                className='w-full flex items-center justify-center'
                             >
                                 <img
                                     src='https://hungrypoint.in/img/4.webp'
@@ -397,7 +398,7 @@ function Home() {
                             <div
                                 data-aos="zoom-in"
                                 data-aos-duration="700"
-                                className='flex items-center justify-center md:col-auto lg:col-start-2 col-end-3'
+                                className='w-full flex items-center justify-center md:col-auto lg:col-start-2 col-end-3'
                             >
                                 <img
                                     src='https://hungrypoint.in/img/1.webp'
@@ -407,8 +408,8 @@ function Home() {
                                 />
                             </div>
                         </div>
-                        <div className='flex flex-col items-center justify-center relative'>
-                            <div className='flex flex-col items-start justify-center '>
+                        <div className='w-full flex flex-col items-center justify-center relative'>
+                            <div className='w-full flex flex-col items-start justify-center '>
                                 <h2
                                     data-aos="fade-up"
                                     data-aos-duration="700"
