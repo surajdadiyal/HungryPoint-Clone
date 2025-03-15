@@ -7,7 +7,6 @@ import './App.css';
 import Loader from './components/loader';
 import AppRoutes from './routes/routes';
 
-
 Aos.init({
   offset: 120,
   delay: 0,
@@ -23,7 +22,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <AnimatePresence mode='popLayout'>
+    <AnimatePresence mode='wait'>
       {isLoading ? (
         <Loader setIsLoading={setIsLoading} />
       ) : (

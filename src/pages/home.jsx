@@ -43,7 +43,7 @@ function Home() {
                             <h2 className='text-4xl font-extrabold text-[#404041]'>HUNGRY POINT</h2>
                             <span className='text-lg text-[#404041]'>Pizza, Burger & Snack's..</span>
                             <Button
-                                className={'rounded-full bg-white text-center text-base font-semibold w-xs md:w-md'}
+                                className={'rounded-full bg-white text-center text-base font-semibold w-64 md:w-md'}
                                 variant={'link'}
                                 to='/find-us'
                             >
