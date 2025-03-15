@@ -111,33 +111,37 @@ function Contact() {
                         data-aos-duration="700"
                         data-aos-delay="500"
                     >
-                        <form className='grid grid-cols-1 md:grid-cols-2 gap-5 pt-8 place-content-center'>
-                            <Input
-                                type="text"
-                                className="bg-white"
-                                placeholder="FIRST NAME"
-                            />
-                            <Input
-                                type="text"
-                                className="bg-white"
-                                placeholder="LAST NAME"
-                            />
-                            <Input
-                                type="number"
-                                className="bg-white"
-                                placeholder="CONTACT NUMBER"
-                            />
-                            <Input
-                                type="email"
-                                className="bg-white"
-                                placeholder="EMAIL ID"
-                            />
-                            <Textarea
-                                className="bg-white col-span-2"
-                                placeholder="ENTER YOUR MESSAGE"
-                            />
-                            <Button className="w-full">SUBMIT</Button>
-                        </form>
+                        <div className='w-full flex items-center justify-center'>
+                            <form className='w-full grid grid-cols-1 md:grid-cols-2 gap-5 pt-8 place-content-center'>
+                                <Input
+                                    type="text"
+                                    className="bg-white w-full col-start-1 col-end-3 md:col-auto"
+                                    placeholder="FIRST NAME"
+                                />
+                                <Input
+                                    type="text"
+                                    className="bg-white col-start-1 col-end-3 md:col-auto w-full"
+                                    placeholder="LAST NAME"
+                                />
+                                <Input
+                                    type="number"
+                                    className="bg-white col-start-1 col-end-3 md:col-auto w-full"
+                                    placeholder="CONTACT NUMBER"
+                                />
+                                <Input
+                                    type="email"
+                                    className="bg-white col-start-1 col-end-3 md:col-auto w-full"
+                                    placeholder="EMAIL ID"
+                                />
+                                <Textarea
+                                    className="bg-white col-span-2"
+                                    placeholder="ENTER YOUR MESSAGE"
+                                />
+                                <Button className="w-full">SUBMIT</Button>
+                            </form>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
