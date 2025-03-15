@@ -1,0 +1,88 @@
+const homedata = [
+    {
+        name: "Makhani paneer Pizza",
+        image: "https://foods.qmanja.com/MenuImages/Menu5106-makhani-paner-pizza.jpg.png",
+        price: "₹ 148",
+        description: "(Capsicum, Paneer, Makhani Sauce) This innovative pizza is a must-try for those seeking a unique culinary experience, combining the comforting flavors of Makhani gravy with the familiar and beloved pizza format.",
+        id: 1,
+    },
+    {
+        name: "Tandoori paneer Pizza",
+        image: "https://foods.qmanja.com/MenuImages/Menu5107-Tandoori-Paneer-Pizza.jpg.png",
+        price: "₹ 148",
+        description: "(Onion, Red Paprika, Paneer, Tandoori sauce) The Tandoori Paneer Hungry Pizza is a culinary adventure that combines the best of Indian and Italian cuisines, creating a unique and satisfying meal.",
+        id: 2,
+    },
+    {
+        name: "Paneer Salad",
+        image: "https://foods.qmanja.com/MenuImages/Menu5121-PaneerSalad.JPG.png",
+        price: "₹ 120",
+        description: "Our delicious Paneer Salad is a delightful blend of fresh vegetables, tangy flavors, and tender paneer cheese. It's a perfect choice for those looking for a light and healthy option that doesn't compromise on taste.",
+        id: 3,
+    },
+    {
+        name: "Veg Loaded Garlic",
+        image: "https://foods.qmanja.com/MenuImages/Menu5134-VegLoadedGarlic.jpg.png",
+        price: "₹ 110",
+        description: "Our Veg Loaded Garlic Bread is a delectable twist on the classic garlic bread, packed with an assortment of delicious vegetables.",
+        id: 4,
+    },
+    {
+        name: "Blueberry Shake",
+        image: "https://foods.qmanja.com/MenuImages/Menu5137-Shake%20c.jpg.png",
+        price: "₹ 100",
+        description: "Indulge in the refreshing and delightful taste of our Blueberry Shake. Made with the finest blueberries, this shake is a perfect blend of fruity sweetness and creamy goodneess",
+        id: 5,
+    },
+    {
+        name: "Jumbo Pasta",
+        image: "https://foods.qmanja.com/MenuImages/Menu5148-Jumbo-Pasta.jpg.png",
+        price: "₹ 110",
+        description: "Our Jumbo Pasta dish is a mouthwatering combination of oversized pasta shells filled with a delectable blend of ingredients.",
+        id: 6,
+    },
+    {
+        name: "Classic Pizza",
+        image: "https://foods.qmanja.com/MenuImages/Menu6641-Classic-Pizza.jpg.png",
+        price: "₹ 191",
+        description: "Classic Pizza (Onion, Capsicum, Mushroom, Corn, Paneer) The Classic Pizza is a well-balanced combination of vegetables, cheese, and crust that will leave you wanting more.",
+        id: 7,
+    },
+    {
+        name: "Lazen Pizza",
+        image: "https://foods.qmanja.com/MenuImages/Menu6642-Laden-Pizza.jpg.png",
+        price: "₹ 220",
+        description: "(Paneer, Tomato, Corn, Capsicum, Jalapeno, Extra Cheese) A classic Italian pizza topped with fresh tomato sauce, mozzarella cheese, and fresh basil leaves. Simple yet delicious.",
+        id: 8,
+    },
+    {
+        name: "Spicy Mango",
+        image: "https://foods.qmanja.com/MenuImages/Menu6644-Spicy%20Mango%20Majito.JPG.png",
+        price: "₹ 110",
+        description: "The Spicy Mango dish is versatile and can be enjoyed as an appetizer, a side dish, or even as a topping for your favorite main course. Its vibrant colors and enticing aroma make it a visually appealing addition to any meal.",
+        id: 9,
+    },
+    {
+        name: "Veg Sub",
+        image: "https://foods.qmanja.com/MenuImages/Menu6645-VegSub.jpg.png",
+        price: "₹ 119",
+        description: "Whether you're a devoted vegetarian or simply enjoy the taste and freshness of vegetables, our Veg Sub is a wholesome and mouthwatering choice.",
+        id: 10,
+    },
+    {
+        name: "Cheesy Spicy Burger",
+        image: "https://foods.qmanja.com/MenuImages/Menu6683-cheesyspicyburger.jpg.png",
+        price: "₹ 72",
+        description: "The Cheesy Spicy Burger is a culinary delight that combines the rich flavors of melted cheese with the tantalizing heat of spices",
+        id: 11,
+    },
+    {
+        name: "Paneer & Onion Pizza",
+        image: "https://foods.qmanja.com/MenuImages/Menu7102-Rectangle%2092.png.png",
+        price: "₹ 95",
+        description: "Paneer and Onion Pizza is a delicious and popular pizza variation that combines the creamy texture of paneer (Indian cottage cheese) with the sweet and slightly pungent flavor of onions.",
+        id: 12,
+    },
+]
+
+export default homedata

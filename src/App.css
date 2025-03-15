@@ -1,0 +1,67 @@
+.html,
+body {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#642bff, #ff22e6);
+  border-radius: 7px;
+}
+
+
+.leaf {
+  animation: moveUpDown 5s ease-in-out infinite;
+  /* Adds the animation */
+}
+
+@keyframes moveUpDown {
+  0% {
+    top: 0;
+    /* Starting position at the top */
+  }
+
+  50% {
+    top: -20px;
+    /* Move the image up */
+  }
+
+  100% {
+    top: 0;
+    /* Back to the original position */
+  }
+}
+
+.mushroom {
+  transform-origin: bottom left;
+  animation: mushrooms 10s linear infinite !important;
+  -webkit-animation: mushrooms 10s linear infinite !important;
+}
+
+@keyframes mushrooms {
+  0% {
+    transform: translatex(0px) translateY(0) rotate(0deg);
+    -webkit-transform: translatex(0px) translateY(0) rotate(0deg);
+    -moz-transform: translatex(0px) translateY(0) rotate(0deg);
+    -ms-transform: translatex(0px) translateY(0) rotate(0deg);
+    -o-transform: translatex(0px) translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translatex(-35px) translateY(-35px) rotate(10deg);
+    -webkit-transform: translatex(-35px) translateY(-35px) rotate(10deg);
+    -moz-transform: translatex(-35px) translateY(-35px) rotate(10deg);
+    -ms-transform: translatex(-35px) translateY(-35px) rotate(10deg);
+    -o-transform: translatex(-35px) translateY(-35px) rotate(10deg);
+  }
+
+  100% {
+    transform: translatex(0px) translateY(0) rotate(0deg);
+    -webkit-transform: translatex(0px) translateY(0) rotate(0deg);
+  }
+}
